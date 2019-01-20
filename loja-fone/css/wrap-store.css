@@ -1,0 +1,24 @@
+.wrap-store {
+  display: inline-block;
+  vertical-align: middle;
+  width: 454px;
+  position: relative;
+}
+.wrap-store > .buttons {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(calc(100% + 40px));
+  width: 100%;
+}
+@media (max-width: 1310px) {
+  .wrap-store {
+    width: 100%;
+  }
+  .wrap-store > .buttons {
+    position: static;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    transform: none;
+  }
+}
