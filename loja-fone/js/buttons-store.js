@@ -4,7 +4,7 @@ const $second = document.querySelector(".-second");
 $second.addEventListener("click", handleClick);
 
 function handleClick() {
-  const $actLast = window.document.querySelector("a.-last");
+  const $actLast = document.querySelector(".-last");
 
   $actLast.textContent = `Carrinho(${++valorInicial})`;
 }
