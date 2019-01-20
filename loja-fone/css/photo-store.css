@@ -35,9 +35,24 @@
     margin-bottom: 30px;
   }
 }
+@media (max-width: 650px) {
+  .photo-store > .phone {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 @media (max-width: 560px) {
   .photo-store {
     height: auto;
+    width: 100%;
+  }
+  .photo-store > .phone {
+    width: 100%;
+  }
+}
+@media (max-width: 470px) {
+  .photo-store > .phone {
     width: 100%;
   }
 }
