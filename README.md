@@ -1,3 +1,3 @@
 # Tela do projeto Loja-Fone
 
-![projeto](/img/tela.png)
+![projeto](./loja-fone/img/tela.png)
